@@ -1,0 +1,173 @@
+@media  screen and (max-width:887px) {
+
+    /* header */
+    .container {
+        max-width: 100%;
+        margin: 20px;
+    }
+    .boost {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .hirevision {
+        width: 100%;
+    }
+
+    .btn-mob {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .learn-btn, .demo-btn {
+        width: 300px;
+    }
+    .overflow-none {
+        flex-direction: column;
+    }
+
+    /* companies section */
+
+    .companies-img {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .how-it-works {
+        flex-direction: column;
+    }
+
+    .easy {
+        width: 100%;
+        margin-right: 100px;
+        font-size: 40px;
+    }
+
+    /*  feature section */
+
+    .feature-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .flex-left {
+        font-size: 25px;
+        max-width: 100%; 
+    }
+
+    .text-left {
+        flex-direction: column;
+        font-size: 40px;
+        text-align: center;
+        overflow: none;
+    }
+    .feature {
+        text-align: center;
+    }
+
+    .hero-right {
+        max-width: 80%;
+        /* margin-right: 320px; */
+    } 
+
+    /* feature section 2 */
+
+    .feature-section2 {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .hero-right {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .hero-left {
+       
+    }
+    .right {
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* /feature section 3 */
+
+    .feature-section3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* feature section 4 */
+
+    /* big feature section */
+
+    .big-feature-section {
+        flex-direction: column;
+    }
+
+    .make {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    /* small feature section */
+
+    .small-feature-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .plus750 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /* big feature section 2 */
+
+    .big-feature-section2 {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .testimonial {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .we-struggled {
+        flex-direction: column;
+    }
+
+    /* small section 2 */
+
+    .feature-section2 {
+        flex-direction: column;
+    }
+
+    .small-section2 {
+        flex-direction: column;
+    }
+
+    .flex-what {
+        flex-direction: column;
+    }
+
+    /* features section 4 */
+
+    .features-area {
+        flex-direction: column;
+    }
+
+    /* footer */
+
+    .footer-class {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    /* sub footer */
+
+    .sub-footer {
+        flex-direction: row;
+        color: grey;
+    }
+}

@@ -1,0 +1,465 @@
+@import url('https://.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@500&family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #02015a;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+     list-style: none; 
+}
+
+.container {
+    max-width: 1400px;
+    margin: 20px 60px;
+    padding: 30px;
+    padding-inline: 20px; 
+}
+
+.flex { 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 35px; 
+}
+
+nav {
+    background-image: linear-gradient(to right, rgba(10%, 5%, 85%, 0), rgba(10%, 5%, 85%, 0.5)); 
+}
+
+
+nav:hover {
+    background-image: none !important; 
+    background-color: white;
+ }
+
+
+.primart-button {
+    padding: 6px 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+nav:hover .hover-link {
+    color: purple !important;
+}
+
+nav:hover .buy-template-btn {
+    color: purple !important;
+}
+
+nav:hover .btn-arrow {
+    color: purple;
+}
+.grey-color {
+    color: grey;
+}
+
+.white-color {
+    color: white;
+}
+
+.btn-arrow {
+    color: white;
+}
+
+/* header */
+
+header {
+    margin-top: -20px;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    background-color: #ecf1f7;
+}
+.new {
+    padding: 3px 10px;
+    color: blue;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.boost {
+    width: 900px;
+}
+
+.hirevision {
+    width: 450px;
+}
+
+.creat {
+    color: blue;
+}
+.learn-btn {
+    padding: 6px 18px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.demo-btn {
+    padding: 6px 18px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+
+.flex-col {
+   flex-direction: column;
+}
+
+.learn-btn:hover {
+    color: white;
+    background-color: blue;
+}
+
+.top {
+    padding: 8px 12px;
+    background-color: #E2E0FA;
+    gap: 10px !important;
+    border-radius: 15px;
+}
+
+.photo {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.already {
+   gap: 10px;
+}
+
+.overflow-none {
+    overflow: hidden; 
+    gap: 25px;
+}
+
+.img2 {
+    position: relative;
+    right: 12px;
+}
+
+.img3 {
+    position: relative;
+    right: 25px;
+}
+
+.img4 {
+    position: relative;
+    right: 35px;
+}
+
+.margin-left {
+    margin-left: -40px;
+}
+
+
+
+
+section {
+    padding: 80px;
+    background-color: #FFFFFF;
+}
+
+.companies-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.photoss {
+    flex-direction: row;
+}
+
+.how-it-works {
+    margin-top: 50px;
+    padding: 8px 10px;
+    color: blue;
+    background-color: #E2E0FA;
+    border-radius: 29%;
+}
+
+.easy {
+    width: 750px;
+    margin-top: -40px;
+}
+
+.cutting {
+    margin-top: -40px;
+}
+
+/* feature section */
+
+.feature {
+    padding: 8px 10px;
+    color: blue;
+    background-color: #E2E0FA;
+    border-radius: 29%;
+}
+
+.flex-left {
+    align-items: flex-start;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* feature section 2 */
+
+.feature-section2 {
+    flex-direction: column;
+}
+
+/* feature section 3 */
+
+/* feature section 4 */
+
+.radius {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.features-area {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 120px;
+    margin-top: 100px;
+}
+
+.features-card {
+    flex-direction: column;
+    max-width: 25%;
+    text-align: center;
+}
+
+.powerful {
+    width: 750px;
+}
+
+/* big feature section */
+
+
+.big-feature-section {
+    margin: 80px 130px;
+    padding: 60px 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px
+}
+
+.make {
+    color: white;
+    width: 600px;
+    text-align: left;
+}
+
+.demo-btn2 {
+    padding: 6px 8px;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.discover {
+    padding-top: 20px;
+}
+
+/* small feature section */
+
+.small-feature-section {
+    justify-content: center;
+    padding: 120px 80px;
+}
+
+.metrics {
+    gap: 15px;
+}
+
+.blue-color {
+    color: blue;
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.plus750 {
+  
+}
+
+.plus75 {
+    padding: 0 80px;
+    border-right: 0.5px solid grey;
+}
+
+.plus4000 {
+    padding: 0 80px;
+    border-right: 0.5px solid grey;
+}
+
+.plus50 {
+    padding: 0 80px;
+}
+/* big feature section 2 */
+
+.big-feature-section2 {
+    background-color: #EEF2F8;
+    justify-content: center;
+}
+.test {
+    padding: 8px 10px;
+    color: blue;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dont {
+    margin-top: -20px;
+}
+
+.blue-colorr {
+    color: blue;
+}
+
+.we {
+    padding: 25px;
+    background-color:#ECE5FF ;
+}
+
+.as {
+    padding: 25px;
+    background-color: #FBF7B8;
+}
+
+.the {
+    padding: 25px;
+    background-color: #D9FFD8;
+}
+
+/* small section */
+
+.more-btn {
+    padding: 6px 8px;
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+/* small section 2 */
+
+.blog {
+    padding: 8px 10px;
+    color: blue;
+    background-color:#F3F7FB ;
+    border-radius: 10px;
+}
+
+.more-art-btn {
+    padding: 6px 8px;
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.color-blue {
+    padding: 6px 8px;
+    color: blue;
+    background-color: #87e79c;
+    border-radius: 10px;
+}
+
+
+/* footer */
+
+.footer-class {
+    margin: 80px 130px;
+    padding: 60px 100px;
+}
+
+.signi {
+    width: 300px;
+}
+
+.resources:hover {
+    color: blue;
+    cursor: pointer;
+} 
+
+.resources {
+    font-size: 15px;
+    font-size: 15;
+}
+
+.resource:hover {
+    color: blue;
+    cursor: pointer;
+} 
+
+.resource {
+    font-size: 15px;
+    font-weight: 15;
+}
+
+.resourcess:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+/* sub footer */
+
+.sub-footer {
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+}
+
+.terms-of:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.terms {
+    gap: 10px;
+}
+
+
+
+
+
